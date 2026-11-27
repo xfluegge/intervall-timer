@@ -1,0 +1,9 @@
+INTERVALL – Offline-Web-App
+
+1. ZIP entpacken und alle App-Dateien gemeinsam auf einen statischen HTTPS-Webhost laden (z. B. GitHub Pages oder Netlify).
+2. Die bereitgestellte HTTPS-Adresse in Safari auf dem iPhone öffnen.
+3. Teilen > Zum Home-Bildschirm > ggf. Als Web-App öffnen > Hinzufügen.
+4. Über das neue Symbol öffnen, solange das iPhone online ist. Warten, bis oben „Offline bereit“ angezeigt wird. App schließen, Flugmodus aktivieren und erneut öffnen. Signalton testen.
+5. Intervall einstellen, Start drücken. Die App während des Trainings sichtbar im Vordergrund lassen. Bei Bedarf automatische Sperre unter Einstellungen > Anzeige & Helligkeit deaktivieren und danach wieder aktivieren.
+
+Die HTML-Datei kann auch direkt in einem Desktop-Browser geöffnet werden; iOS-Dateivorschau führt JavaScript möglicherweise nicht aus. Die HTTPS-Installation ist deshalb für iPhone empfohlen. Es gibt keine externen Bibliotheken, Tracker oder Internetzugriffe im Timerbetrieb. iOS kann Ton und Zeitgeber im Hintergrund anhalten; dies ist keine zuverlässige Sperrbildschirm-App. Browserdaten können vom System oder Nutzer gelöscht werden, dann erneut online öffnen. Die Lautstärke wird am Gerät eingestellt.
