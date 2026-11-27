@@ -7,3 +7,10 @@ INTERVALL – Offline-Web-App
 5. Intervall einstellen, Start drücken. Die App während des Trainings sichtbar im Vordergrund lassen. Bei Bedarf automatische Sperre unter Einstellungen > Anzeige & Helligkeit deaktivieren und danach wieder aktivieren.
 
 Die HTML-Datei kann auch direkt in einem Desktop-Browser geöffnet werden; iOS-Dateivorschau führt JavaScript möglicherweise nicht aus. Die HTTPS-Installation ist deshalb für iPhone empfohlen. Es gibt keine externen Bibliotheken, Tracker oder Internetzugriffe im Timerbetrieb. iOS kann Ton und Zeitgeber im Hintergrund anhalten; dies ist keine zuverlässige Sperrbildschirm-App. Browserdaten können vom System oder Nutzer gelöscht werden, dann erneut online öffnen. Die Lautstärke wird am Gerät eingestellt.
+
+Version 2 – Aktualisierung
+Bei einer bestehenden GitHub-Pages-Installation mindestens index.html und sw.js im selben Repository ersetzen. Nach der Veröffentlichung die App online öffnen, schließen und erneut öffnen, bis „Version 2 · Offline bereit“ angezeigt wird. Danach im Flugmodus testen. Einstellungen aus Version 1 werden übernommen.
+Erholungspause aktivieren und Minuten/Sekunden einstellen (mindestens eine Sekunde); deaktiviert wiederholen sich Intervalle direkt. Grün = Intervall, Blau = Erholungspause. Anhalten/Weiter stoppt bzw. setzt den Timer fort. Kurze Signaltöne bei 3, 2, 1 Sekunden im Intervall, langer höherer Ton am Intervallende, langer tieferer Ton am Pausenende. Bei sehr kurzen Intervallen können Warn- und Endton zeitlich dicht aufeinander folgen. Die Pausen zählen nicht als abgeschlossene Intervalle.
+
+Version 3 – Aktualisierung
+index.html und sw.js ersetzen, online öffnen, schließen und erneut öffnen, bis „Version 3 · Offline bereit“ erscheint. Einstellungen bleiben erhalten. Ein mittellanger, tieferer Ton (0,22 s) ertönt einmal zur zeitlichen Mitte jedes Trainingsintervalls, nicht in der Erholungspause. Bei gleichzeitigem Countdown-Warnton folgt der Halbzeitton kurz danach. Die Tonprobe enthält auch das Halbzeitsignal.
